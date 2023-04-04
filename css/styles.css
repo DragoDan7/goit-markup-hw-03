@@ -134,7 +134,6 @@ body {
   line-height: 1.5;
   display: inline-block;
   padding: 16px 32px;
-  gap: 10px;
   min-width: 169px;
   min-height: 56px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -332,6 +331,7 @@ body {
 }
 
 .svg-second-section-div {
+  margin-bottom: 8px;
   background: var(--Light);
   border-radius: 4px;
   height: 112px;
@@ -346,7 +346,7 @@ body {
 .third-section-svg-list {
   width: 232px;
   height: 40px;
-  gap: 24px;
+  gap: 16px;
   margin-top: 8px;
 }
 .foter-box {
@@ -390,10 +390,10 @@ body {
 }
 .customers-div:hover,
 .customers-div:focus {
-  border: 1px solid #404bbf;
-  border-radius: 4px;
+  border-color: #404bbf;
 }
 .hero {
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
@@ -442,5 +442,9 @@ body {
 }
 .foter-item-svg:hover,
 .foter-item-svg:focus {
+  background: #31d0aa;
+}
+.third-section-item-list:hover,
+.third-section-item-list:focus {
   background: #31d0aa;
 }
